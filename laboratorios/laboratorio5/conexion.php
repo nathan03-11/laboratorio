@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";
-$user = "root";     
-$pass = "";          
-$db   = "colegio";  
+$user = "NMDB2025";     
+$pass = "NMDB";          
+$db   = "db_NMDDB2025";  
 
 $conn = new mysqli($host, $user, $pass, $db);
 
@@ -10,3 +10,4 @@ if ($conn->connect_error) {
     die("Error en la conexión: " . $conn->connect_error);
 }
 ?>
+
